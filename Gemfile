@@ -2,9 +2,11 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'dotenv-rails'
 end
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'bootstrap3'
+gem 'google_calendar'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
